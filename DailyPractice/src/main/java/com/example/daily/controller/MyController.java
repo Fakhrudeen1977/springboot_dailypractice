@@ -10,7 +10,7 @@ public class MyController {
 
 	@GetMapping("/home")
 	public String getHomePage() {
-		return "<h2>SpringBoot Aws Deployed</h2>";
+		return "<h2>SpringBoot Aws Deployed Successfully</h2>";
 		
 	}
 	
