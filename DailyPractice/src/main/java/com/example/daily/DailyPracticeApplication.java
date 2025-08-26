@@ -10,7 +10,7 @@ public class DailyPracticeApplication  {
 	
 	
 	public static void main(String[] args) {
-		
+		System.out.println("Feature Branch");
 		SpringApplication.run(DailyPracticeApplication.class, args);
 		 
 	}
