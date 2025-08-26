@@ -10,6 +10,7 @@ public class DailyPracticeApplication  {
 	
 	
 	public static void main(String[] args) {
+		System.out.println("Welcome to SprigBoot Application");
 		SpringApplication.run(DailyPracticeApplication.class, args);
 		 
 	}
