@@ -10,8 +10,7 @@ public class DailyPracticeApplication  {
 	
 	
 	public static void main(String[] args) {
-		System.out.println("Welcome to SprigBoot Application");
-		System.out.println("New Line added in Git Repo");
+		
 		SpringApplication.run(DailyPracticeApplication.class, args);
 		 
 	}
