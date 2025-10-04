@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.example.daily.dto.IdContainerDto;
 import com.example.daily.dto.StudentDto;
 import com.example.daily.service.StudentService;
@@ -59,6 +58,19 @@ public class StudentController {
 		List<StudentDto> bloodGroupDtoList = studentService.getStudentList();
 		return ResponseEntity.ok(bloodGroupDtoList);
 	}
+	
+	
+	
+
+	@GetMapping("/home")
+	public ResponseEntity<String> home() {
+	
+		//List<StudentDto> bloodGroupDtoList = studentService.getStudentList();
+		return ResponseEntity.ok("<h1>Welcome to Learning Jenkin</h1>");
+		
+	}
+		
+	
 	
 	
 	@GetMapping("/getStudent/{id}")
